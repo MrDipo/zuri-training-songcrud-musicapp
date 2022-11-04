@@ -37,10 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 3rd party apps
+    'rest_framework',
     # my apps
-    'musicapp.apps.MusicappConfig'
-    # api for musicapp
-    'gbedu.apps.GbeduConfig'
+    'musicapp.apps.MusicappConfig',
+    'gbedu.apps.GbeduConfig',
 ]
 
 MIDDLEWARE = [
