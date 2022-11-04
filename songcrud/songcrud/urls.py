@@ -21,5 +21,7 @@ urlpatterns = [
 
     path('musicapp/', include('musicapp.urls')),
 
+    path('gbedu/', include('gbedu.urls')),
+
     path('api-auth/', include('rest_framework.urls')),
 ]
