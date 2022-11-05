@@ -1,7 +1,4 @@
 from rest_framework import viewsets
-from rest_framework.response import Response
-from rest_framework.decorators import api_view
-from rest_framework import serializers, status
 from musicapp.models import Artiste, Song, Lyric
 from gbedu.serializers import ArtisteSerializer, SongSerializer, LyricSerializer
 
